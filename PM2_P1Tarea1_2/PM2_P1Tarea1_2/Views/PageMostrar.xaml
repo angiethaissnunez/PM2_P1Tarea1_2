@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2_P1Tarea1_2.Views.PageMostrar">
+    <ContentPage.Content>
+
+        <StackLayout BackgroundColor="LightSeaGreen" Margin="15,30,15,20" >
+            <Label Text="{Binding nombre}"
+                   Margin="20,200,20,5"
+                   TextColor="White"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" x:Name="Rnombre" />
+
+            <Label Text="{Binding apellido}"
+                   TextColor="White"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" x:Name="Rapellido" />
+
+            <Label Text="{Binding edad}"
+                   TextColor="White"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" x:Name="Redad" />
+
+            <Label Text="{Binding correo}"
+                   TextColor="White"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" x:Name="Rcorreo" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
